@@ -1,0 +1,22 @@
+{
+  "name": "ZJSNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of ZJSNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangjiansong0@163.com/ZJSNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangjiansong0@163.com": "zhangjiansong0@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangjiansong0@163.com/ZJSNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZJSNetworking/Classes/**/*"
+}

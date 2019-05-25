@@ -1,0 +1,6 @@
+framework module ZJSNetworking {
+  umbrella header "ZJSNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
