@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZJSNetworking'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZJSNetworking.'
+  s.summary          = 'iOS开发，网络请求功能封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        为了方便iOS开发，在AFNetworking基础上进行二次封装
                        DESC
 
   s.homepage         = 'https://github.com/zhangjiansong0@163.com/ZJSNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangjiansong0@163.com' => 'zhangjiansong0@163.com' }
-  s.source           = { :git => 'https://github.com/zhangjiansong0@163.com/ZJSNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AndyZhang89/ZJSNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZJSNetworking/Classes/**/*'
   
