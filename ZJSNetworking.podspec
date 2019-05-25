@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                         为了方便iOS开发，在AFNetworking基础上进行二次封装
                        DESC
 
-  s.homepage         = 'https://github.com/zhangjiansong0@163.com/ZJSNetworking'
+  s.homepage         = 'https://github.com/AndyZhang89/ZJSNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangjiansong0@163.com' => 'zhangjiansong0@163.com' }
