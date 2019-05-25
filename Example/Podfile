@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZJSNetworking_Example' do
+  pod 'ZJSNetworking', :path => '../'
+
+  target 'ZJSNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
