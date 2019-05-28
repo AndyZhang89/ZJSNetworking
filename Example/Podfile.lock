@@ -1,16 +1,37 @@
 PODS:
-  - ZJSNetworking (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ZJSNetworking (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - ZJSNetworking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ZJSNetworking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJSNetworking: 34d89190df2ddf8fa05fa498d8bdff3107de2aa2
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ZJSNetworking: 8a9d8e833c6278bfe47a0255f35ed58f31da0cf4
 
-PODFILE CHECKSUM: 8557849231372d384473268e17cfbe60b225d0e7
+PODFILE CHECKSUM: cb1a4937d3a30c6b3d2480d433802afb533e7a4c
 
 COCOAPODS: 1.5.3
